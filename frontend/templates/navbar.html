@@ -1,0 +1,113 @@
+{% block nav %}
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">Stock Analytics</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="https://mobirise.com/extensions/partneramp/financialconsultancy/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ url_for('page_faq') }}">FAQ</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('page_table') }}">Table</a>
+          </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            APPL
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="{{ url_for('page_bar') }}">Bar Chart</a>
+            <a class="dropdown-item" href="{{ url_for('page_line') }}">Line Chart</a>
+            <a class="dropdown-item" href="{{ url_for('page_sunburst') }}">Sunburst Chart</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              META
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="{{ url_for('page_bar') }}">Bar Chart</a>
+              <a class="dropdown-item" href="{{ url_for('page_line') }}">Line Chart</a>
+              <a class="dropdown-item" href="{{ url_for('page_sunburst') }}">Sunburst Chart</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              PTON
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="{{ url_for('page_bar') }}">Bar Chart</a>
+              <a class="dropdown-item" href="{{ url_for('page_line') }}">Line Chart</a>
+              <a class="dropdown-item" href="{{ url_for('page_sunburst') }}">Sunburst Chart</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              ABC
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="{{ url_for('page_bar') }}">Bar Chart</a>
+              <a class="dropdown-item" href="{{ url_for('page_line') }}">Line Chart</a>
+              <a class="dropdown-item" href="{{ url_for('page_sunburst') }}">Sunburst Chart</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              SNAP
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="{{ url_for('page_bar') }}">Bar Chart</a>
+              <a class="dropdown-item" href="{{ url_for('page_line') }}">Line Chart</a>
+              <a class="dropdown-item" href="{{ url_for('page_sunburst') }}">Sunburst Chart</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              AMZN
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="{{ url_for('page_bar') }}">Bar Chart</a>
+              <a class="dropdown-item" href="{{ url_for('page_line') }}">Line Chart</a>
+              <a class="dropdown-item" href="{{ url_for('page_sunburst') }}">Sunburst Chart</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              MRIN
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="{{ url_for('page_bar') }}">Bar Chart</a>
+              <a class="dropdown-item" href="{{ url_for('page_line') }}">Line Chart</a>
+              <a class="dropdown-item" href="{{ url_for('page_sunburst') }}">Sunburst Chart</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              CVT
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="{{ url_for('page_bar') }}">Bar Chart</a>
+              <a class="dropdown-item" href="{{ url_for('page_line') }}">Line Chart</a>
+              <a class="dropdown-item" href="{{ url_for('page_sunburst') }}">Sunburst Chart</a>
+            </div>
+          </li>
+
+
+      </ul>
+    </div>
+  </nav>
+
+  {% endblock %}
